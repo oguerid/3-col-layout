@@ -1,0 +1,111 @@
+*,
+*::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* img {
+  width: 100%;
+} */
+/* 
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(0, 0%, 95%);
+  height: 700px;
+  display: flex;
+}
+.container {
+  width: 327px;
+  max-width: 375px;
+  margin: 0 auto;
+}
+.box {
+  padding: 3rem;
+}
+.box__title {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  margin-bottom: 25px;
+  color: hsl(0, 0%, 95%);
+}
+.vehicle {
+  width: 64px;
+  height: 40px;
+  margin-bottom: 35px;
+}
+.box__sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+.box__suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.box__luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+.box__text {
+  margin-bottom: 25px;
+}
+.box__button {
+  display: inline-block;
+  width: 146px;
+  padding: 0.5rem;
+  border-radius: 50px;
+  border: 0;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.box__button--orange {
+  color: hsl(31, 77%, 52%);
+}
+.box__button--light-green {
+  color: hsl(184, 100%, 22%);
+}
+.box__button--dark-green {
+  color: hsl(179, 100%, 13%);
+}
+
+@media screen and (min-width: 1040px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    max-width: 920px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .box__button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  
+/* 
+  .box__button--orange:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 2px solid white;
+  }
+  .box__button--light-green:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 2px solid white;
+  }
+  .box__button--dark-green:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 2px solid white;
+  } */
+}
