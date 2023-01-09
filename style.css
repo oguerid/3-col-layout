@@ -63,6 +63,7 @@ body {
   background-color: white;
   text-align: center;
   text-decoration: none;
+  border: 1px solid white;
 }
 .box__button--orange {
   color: hsl(31, 77%, 52%);
@@ -89,7 +90,7 @@ body {
   .box__button:hover {
     background-color: transparent;
     color: white;
-    border: 1px solid white;
+    
   }
   
 /* 
